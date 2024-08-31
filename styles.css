@@ -1,0 +1,21 @@
+.carousel-container {
+    position: relative;
+    width: 80%;
+    margin: auto
+}
+.carousel{
+    display : flex ;
+    transition: transform 0.5s ease-in-out;
+}
+button {
+    position: absolute;
+    top : 50% ;
+    color: white ;
+    border: none ;
+ }
+ .prev{
+    left : 10px ;
+ }
+ .next {
+    right : 10px ;
+ }
